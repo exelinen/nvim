@@ -1,0 +1,56 @@
+<leader>pv  | n | Avaa :Ex
+J           | v | Valittu/valitut(?) rivi(t) ylöspäin
+K           | v | Valittu/valitut(?) rivi(t) alaspäin
+J           | n | Liittää alla olevan rivin riville, missä kursori
+<C-d>       | n | Liiku alaspäin isompi hyppäys
+<C-u>       | n | Liiku ylös isompi hyppäys
+n           | n | Hae seuraava haku
+N           | n | Hae seuraava haku toiseen suuntaan
+<C-c>       | i | Takaisin normal modeen
+<leader>f   | n | Format Code
+<leader>s   | n | Hae sanaa kursorin alta ja vaihda se toiseen
+
+FUGITIVE
+<leader>gs  | Avaa fugitive (Git)
+
+HARPOON
+<leader>a   | n | Lisää tiedosto listalle
+<C-e>       | n | Näytä pikavalikko (toggle)
+<C-h>       | n | Harpunoi tiedostoon 1       
+<C-t>       | n | Harpunoi tiedostoon 2       
+<C-n>       | n | Harpunoi tiedostoon 3       
+<C-s>       | n | Harpunoi tiedostoon 4       
+
+TELESCOPE
+<leader>pf  | n | Avaa tiedostojen haku
+<leader>ps  | n | Grep haku
+<leader>pb  | n | Avaa bufferit
+<C-n>       | n | Next item (listalta)
+<C-p>       | n | Previous item
+<C-x>       | n | Avaa tiedosto split
+<C-v>       | n | Avaa tiedosto vsplit
+<C-t>       | n | Avaa tiedosto uuteen tabiin
+<C-c>       | n | Sulje telescope
+<C-q>       | n | Pistä kaikki itemit quickfixlistiin
+<M-q>       | n | Valitse kaikki valitut quicfixlistiin
+
+UNDOTREE
+<leader>u   | n | Näytä undotree (toggle)
+
+LSP-ZERO
+K           | n | Näytä hover information kursorin alta olevasta
+gd          | n | Hyppää määritelmään (kursorin alla)
+gD          | n | Hyppää määrittelyyn (kursorin alla)
+gi          | n | Listaa kaikki toteutukset
+go          | n | Hyppää tyypin määritykseen
+gr          | n | Listaa kaikki viittaukset 
+gs          | n | Näytä signature info
+<F2>        | n | Renames all references to the symbol under the cursor
+gl          | n | Shows diagnostics in floating window
+[d          | n | Move to the prev diagnostic in the current buffer
+]d          | n | Move to the next diagnostic in the current buffer
+<C-y>       | n | Confirms selection
+<C-e>       | n | Cancel completion
+<C-n>       | n | If completion menu is visible, go to the next item. Else, trigger completion menu.
+<C-p>       | n | If completion menu is visible, go to the prev item. Else, trigger completion menu.
+
